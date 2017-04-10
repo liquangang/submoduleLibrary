@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		076586A01E9B2EB500569343 /* submoduleLibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = 0765869E1E9B2EB500569343 /* submoduleLibrary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		076586A81E9B32CC00569343 /* submoduleLibraryTestObj.h in Headers */ = {isa = PBXBuildFile; fileRef = 076586A61E9B32CC00569343 /* submoduleLibraryTestObj.h */; };
+		076586A91E9B32CC00569343 /* submoduleLibraryTestObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 076586A71E9B32CC00569343 /* submoduleLibraryTestObj.m */; };
 		CD83B0E64DD3524C2DDF2BCC /* libPods-submoduleLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 837A67C8CC6B25A5EA6E77DF /* libPods-submoduleLibrary.a */; };
 /* End PBXBuildFile section */
 
@@ -15,6 +17,8 @@
 		0765869B1E9B2EB500569343 /* submoduleLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = submoduleLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0765869E1E9B2EB500569343 /* submoduleLibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = submoduleLibrary.h; sourceTree = "<group>"; };
 		0765869F1E9B2EB500569343 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		076586A61E9B32CC00569343 /* submoduleLibraryTestObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = submoduleLibraryTestObj.h; sourceTree = "<group>"; };
+		076586A71E9B32CC00569343 /* submoduleLibraryTestObj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = submoduleLibraryTestObj.m; sourceTree = "<group>"; };
 		837A67C8CC6B25A5EA6E77DF /* libPods-submoduleLibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-submoduleLibrary.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		88B6C2E05140DC767207D9F6 /* Pods-submoduleLibrary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-submoduleLibrary.release.xcconfig"; path = "Pods/Target Support Files/Pods-submoduleLibrary/Pods-submoduleLibrary.release.xcconfig"; sourceTree = "<group>"; };
 		CDDF853082B7A29489D79DB8 /* Pods-submoduleLibrary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-submoduleLibrary.debug.xcconfig"; path = "Pods/Target Support Files/Pods-submoduleLibrary/Pods-submoduleLibrary.debug.xcconfig"; sourceTree = "<group>"; };
@@ -55,6 +59,8 @@
 			children = (
 				0765869E1E9B2EB500569343 /* submoduleLibrary.h */,
 				0765869F1E9B2EB500569343 /* Info.plist */,
+				076586A61E9B32CC00569343 /* submoduleLibraryTestObj.h */,
+				076586A71E9B32CC00569343 /* submoduleLibraryTestObj.m */,
 			);
 			path = submoduleLibrary;
 			sourceTree = "<group>";
@@ -84,6 +90,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				076586A01E9B2EB500569343 /* submoduleLibrary.h in Headers */,
+				076586A81E9B32CC00569343 /* submoduleLibraryTestObj.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -190,6 +197,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				076586A91E9B32CC00569343 /* submoduleLibraryTestObj.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,6 +357,7 @@
 				076586A51E9B2EB500569343 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
